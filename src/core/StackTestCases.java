@@ -50,4 +50,12 @@ public class StackTestCases extends TestCase {
 			s4.push(4); 
 		}
 		
+	//TC5
+		public void testPushSameElmType() throws Exception {
+			Stack s5 = new Stack(3);
+			s5.push(1);
+			s5.push(2);
+			s5.push("Test");
+		}
+		
 }
